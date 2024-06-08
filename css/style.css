@@ -1,0 +1,17 @@
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "Headland One", sans-serif;
+    --third-family: "Hammersmith One", sans-serif;
+    --white-color-for-content: #fff;
+    --color-text-for-btn: #26c6ea;
+    --border-btn: #26c7ea;
+    --background-color-btn: #0b0e66;
+}
+
+.container{
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* outline: 2px dashed red;
+    margin: 0 auto; */
+}
