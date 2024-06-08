@@ -19,3 +19,28 @@
 .flex{
     display: flex;
 }
+
+.header-avatar{
+    margin-left: auto;
+    margin-right:180px ;
+}
+
+.header-link {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: var(--white-color-for-content);
+}
+
+.header-li-link { 
+    justify-content: center;
+    margin-right: 38px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px ;
+    padding-right: 50px; 
+}
