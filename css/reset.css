@@ -2,8 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* border-top-left-radius: 35px;
-  border-bottom-right-radius: 35px; */
 }
 p,
 h1,
