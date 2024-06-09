@@ -28,7 +28,7 @@
 
 .header {
     padding-bottom: 63px;
-    padding-top:63px ;
+    padding-top: 63px ;
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/header-background.jpg);
     width: 100%;
     height: 147px;
@@ -41,8 +41,7 @@
 .header-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 37px;
+    align-items: flex-start;
 }
 
 .navigation {
@@ -206,7 +205,7 @@
     text-align: justify;
     color: var(--border-btn);
     background-color: var(--background-color-btn);
-    margin-left: 955px;
+    margin-left: 650px;
     margin-top: 340px;
     padding: 20px 13px;
     border: solid 2px var(--border-btn);
@@ -227,32 +226,57 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
-    text-align: justify;
+    text-align: center;
     color: var(--another-color-content);
 }
 
-.teaching-list{
+.teaching-list {
     display: flex;
+    gap: 37px;
     flex-wrap: wrap;
-    column-gap: 40px;
-    row-gap: 24px;
-    justify-content: center;
+    margin-top: 54px;
+    margin-bottom: 50px;
 }
 
-.teaching-list-child{
+.teaching-list-child {
+    text-align: center;
     align-items: center;
-    flex-basis: calc((100% - 80px) / 3);
-    padding: 36px 20px;
+    flex-basis: calc((100% - 74px) / 3);
+    padding: 60px 50px;
+    line-height: 40.08px;
+    padding-top: 65px;
+    line-height: 0;
+    height: 234px;
     background-color: rgba(255, 255, 255, 0.7);
     font-family: var(--second-family), serif;
-    text-align: center;
 }
 
-.teaching-title{
-    margin-bottom:45px ;
+.teaching-title {
+    margin-bottom: 45px;
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 32px;
-    text-align: justify;
+    text-align: center;
     color: var(--another-color-content);
+}
+
+.footer {
+    padding-top: 53px;
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url('../img/footer-background.jpg');
+}
+
+.footer-content,
+.footer-content-small {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: var(--white-color-for-content);
+}
+
+.footer-content-small {
+    font-size: 14px;
 }
