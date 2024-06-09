@@ -8,6 +8,7 @@
     --background-color-btn: #0b0e66;
     --color-for-btn-hover: #94cfff;
     --color-content: #0A3853;
+    --color-author: #000000;
 }
 
 .container {
@@ -176,7 +177,18 @@
     font-weight: 400;
     line-height: 29.05px;
     text-align: center;
-    color: var(--fourth-color);
+    color: var(--color-author);
     margin-top: 0px;
     margin-bottom: 11px;
+}
+
+.expression-author::after {
+    display: block;
+    content: "";
+    background-image: url(../img/bird-freedom.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 120px;
+    margin: 0 auto;
 }
