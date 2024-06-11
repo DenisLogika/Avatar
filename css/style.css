@@ -22,16 +22,18 @@
 
 .flex {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    justify-content: space-between;
+    text-align: center;
+    align-items: baseline;
 }
 
 .header {
-    padding-bottom: 63px;
-    padding-top: 63px ;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 39px;
+    padding-top: 39px;
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/header-background.jpg);
-    width: 100%;
-    height: 147px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -41,7 +43,7 @@
 .header-nav {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .navigation {
@@ -78,19 +80,17 @@
     padding: 5px 30px;
 }
 
-.background-image {
+.welcome {
     background-image: url(../img/background-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    }
-
-.main-section {
-    display: flex;
-    justify-content: space-between;
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
 
-.main-section-child {
+.ukraine-content,
+.avatar-content {
     font-family: var(--font-family);
     font-size: 20px;
     font-weight: 400;
@@ -133,36 +133,10 @@
     text-align: center;
     color: var(--border-btn);
     background-color: var(--background-color-btn);
-    margin-bottom: 180px;
     border: solid 2px var(--border-btn);
     border-radius: 45px 0;
     padding: 6px 38px;
     margin-top: 25px;
-}
-
-.welcome-inst-icon {
-    background-image: url(../img/instagram.svg);
-    background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
-    padding-left: 20px;
-    margin-bottom: 24px;
-}
-
-.welcome-twit-icon {
-    background-image: url(../img/twitter.svg);
-    background-repeat: no-repeat;
-    width: 32px;
-    height: 30px;
-    padding-left: 18px;
-    margin-bottom: 24px;
-}
-
-.welcome-youtub-icon {
-    background-image: url(../img/youtube.svg);
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 30px;
 }
 
 .expression-content {
@@ -172,8 +146,8 @@
     line-height: 43.57px;
     text-align: center;
     color: var(--color-content);
-    margin-top: 60px;
-    margin-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 12px;
 }
 
 .expression-author {
@@ -198,12 +172,15 @@
     margin: 0 auto;
 }
 
-.trailer-btn {
+.trailer {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 330px;
+    padding-bottom: 330px;
     background-image: url(../img/background-2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    height: 740px;
+    text-align: center;
 }
 
 .watch-btn {
@@ -214,8 +191,6 @@
     text-align: justify;
     color: var(--border-btn);
     background-color: var(--background-color-btn);
-    margin-left: 650px;
-    margin-top: 340px;
     padding: 20px 13px;
     border: solid 2px var(--border-btn);
     border-top-left-radius: 35px;
@@ -227,7 +202,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 720px;
+    padding-top: 58px;
+    padding-bottom: 58px;
 }
 
 .teaching-content {
