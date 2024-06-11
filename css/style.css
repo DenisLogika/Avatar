@@ -23,9 +23,14 @@
 .flex {
     display: flex;
     justify-content: space-between;
-    text-align: center;
     align-items: center;
-    
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
 }
 
 .header {
@@ -114,7 +119,6 @@
 
 .avatar-content {
     margin-top: 0;
-    padding-top: 180px;
     margin-bottom: 25px;
 }
 
@@ -227,8 +231,8 @@
     display: flex;
     gap: 37px;
     flex-wrap: wrap;
-    margin-top: 54px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .teaching-list-child {
@@ -236,10 +240,6 @@
     align-items: center;
     flex-basis: calc((100% - 74px) / 3);
     padding: 60px 50px;
-    line-height: 40.08px;
-    padding-top: 65px;
-    line-height: 0;
-    height: 234px;
     background-color: rgba(255, 255, 255, 0.7);
     font-family: var(--second-family), serif;
 }
