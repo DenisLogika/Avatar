@@ -24,7 +24,8 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    align-items: baseline;
+    align-items: center;
+    
 }
 
 .header {
@@ -87,6 +88,9 @@
     background-position: center;
     padding-top: 180px;
     padding-bottom: 180px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .ukraine-content,
@@ -204,6 +208,10 @@
     background-repeat: no-repeat;
     padding-top: 58px;
     padding-bottom: 58px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 .teaching-content {
@@ -246,9 +254,11 @@
 }
 
 .footer {
-    padding-top: 53px;
-    padding-bottom: 25px;
-    height: 250px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 39px;
+    padding-top: 39px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url('../img/footer-background.jpg');
