@@ -34,6 +34,7 @@
 }
 
 .header {
+    position: relative;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -44,6 +45,17 @@
     background-position: center;
     background-size: cover;
     border-bottom: solid 1px var(--white-color-for-content)
+}
+
+.header-swiper {
+    position: absolute;
+    font-family: var(--third-family);
+    right: 48px;
+    top: 64px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--white-color-for-content)
 }
 
 .header-nav {
@@ -142,6 +154,7 @@
     color: var(--border-btn);
     background-color: var(--background-color-btn);
     border: solid 2px var(--border-btn);
+    font-family: var(--second-family);
     border-radius: 45px 0;
     padding: 6px 38px;
     margin-top: 25px;
@@ -199,6 +212,7 @@
     text-align: justify;
     color: var(--border-btn);
     background-color: var(--background-color-btn);
+    font-family: var(--second-family);
     padding: 20px 13px;
     border: solid 2px var(--border-btn);
     border-top-left-radius: 35px;
@@ -238,8 +252,9 @@
 .teaching-list-child {
     text-align: center;
     align-items: center;
+    padding-top: 36px;
+    padding-bottom: 20px;
     flex-basis: calc((100% - 74px) / 3);
-    padding: 60px 50px;
     background-color: rgba(255, 255, 255, 0.7);
     font-family: var(--second-family), serif;
 }
