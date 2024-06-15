@@ -3,13 +3,13 @@
     --second-family: "Headland One", sans-serif;
     --third-family: "Hammersmith One", sans-serif;
     --color-content: #fff;
-    --color-text-for-btn: #26c6ea;
+    --color-text-btn: #26c6ea;
     --border-btn: #26c7ea;
     --background-color-btn: #0b0e66;
-    --color-for-btn-hover: #94cfff;
+    --color-btn-hover: #94cfff;
     --color-content-dark: #0A3853;
     --color-author: #000000;
-    --another-color-content: #141414;
+    --darker-color-content: #141414;
 }
 
 .container {
@@ -79,7 +79,7 @@
 }
 
 .header-link:hover {
-    color: var(--color-for-btn-hover);
+    color: var(--color-btn-hover);
     font-weight: 600;
 }
 
@@ -149,7 +149,7 @@
     font-weight: 400;
     line-height: 30.06px;
     text-align: center;
-    color: var(--border-btn);
+    color: var(--color-text-btn);
     background-color: var(--background-color-btn);
     border: solid 2px var(--border-btn);
     font-family: var(--second-family);
@@ -208,7 +208,7 @@
     font-weight: 400;
     line-height: 30.06px;
     text-align: justify;
-    color: var(--border-btn);
+    color: var(--color-text-btn);
     background-color: var(--background-color-btn);
     font-family: var(--second-family);
     padding: 20px 13px;
@@ -236,7 +236,7 @@
     font-size: 24px;
     line-height: 100%;
     text-align: center;
-    color: var(--another-color-content);
+    color: var(--darker-color-content);
 }
 
 .teaching-list {
@@ -276,7 +276,7 @@
     font-weight: 400;
     font-size: 32px;
     text-align: center;
-    color: var(--another-color-content);
+    color: var(--darker-color-content);
 }
 
 .footer {
